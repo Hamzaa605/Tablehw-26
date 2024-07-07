@@ -1,0 +1,46 @@
+.container{
+    background-color: darkorange;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.box{
+    border: 5px solid green;
+    background-color: yellow;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#box1{
+    background-size: 150px;
+    background-position: left;
+    flex-shrink: 1;
+    background-image: url(../Homework.table/image/download\ \(1\).jpeg);
+}
+#box2{
+    background-size: 150;
+    flex-grow: 2;
+    background-position: left;
+    background-image: url(../Homework.table/image/download\ \(2\).jpeg);
+
+}
+#box3{
+    background-size: 100px;
+    flex-shrink: 1;
+    background-position: center;
+    background-image: url(../Homework.table/image/download\ \(3\).jpeg);
+}
+#box4{
+    background-size: 150px;
+    flex-grow: 2;
+    background-position: right;
+    background-image: url(../Homework.table/image/images.jpeg);
+}
+#box5{
+    background-size: 150px;
+    flex-shrink: 1;
+    background-position: right;
+    background-image: url(../Homework.table/image/download.jpeg);
+}
